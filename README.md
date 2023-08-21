@@ -13,7 +13,7 @@ Data processing and analysis is broken up into several Jupyter notebooks.
 | Name | description | notebook |
 |---------:|:------------|:----:|
 | Process AirNow | Downloads AirNow station data from Sebastopol station, writes hourly data to csv, processes daily data, convert to AQI values, writes csv files, plots for consistency check.  |  AirNow_API_extraction.ipynb |
-| Download PurpleAir meta | Downloads Purple Air metadata to have a list of all stations within a region. |  collect_PurpleAir_meta_thingspeak.ipynb |
+| Download PurpleAir meta | Downloads Purple Air metadata from https://api.purpleair.com to collect a list of all stations within a region bounded by latitude and longitude ranges. |  collect_PurpleAir_meta.ipynb |
 | Download PurpleAir 2 min | Downloads Purple Air measurements of raw 2-minute data from the thingspeak API (now redundant). |  collect_PurpleAir_rawdata_thingspeak.ipynb |
 | Process PurpleAir hourly | Create hourly data from 2-minute data, perform QA/QC and apply EPA smoke correction. |  collect_PurpleAir_process_rawdata.ipynb |
 | Process PurpleAir daily | Process daily PM2.5 from hourly data and write a combined file for Sonoma County. |  collect_PurpleAir_create_daily_wfilter.ipynb |
