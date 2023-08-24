@@ -21,5 +21,5 @@ Data processing and analysis is broken up into several Jupyter notebooks.
 | Process PurpleAir hourly | Create hourly data from 2-minute data, perform QA/QC and apply EPA smoke correction. |  process_PurpleAir_rawdata.ipynb |
 | Process PurpleAir daily | Process daily PM2.5 from hourly data and write a combined file for Sonoma County. |  process_PurpleAir_daily_wfilter.ipynb |
 | Create PurpleAir AQI | Process AQI values. |  reprocess_PurpleAir_AQI_GIS.ipynb |
-| Plot comparisons | Timeseries of daily averages and diel cycles in different regions. | plot_PA_AirNow-90perc.ipynb |
+| Plot comparisons | Timeseries of daily averages and diel cycles in different regions. | [plot_PA_AirNow-90perc.ipynb](https://github.com/rrbuchholz/pm25_atmosphere_analysis_2023/blob/main/plot_PurpleAir_AirNow-90perc.ipynb) |
 
