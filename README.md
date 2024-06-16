@@ -4,7 +4,7 @@ Code repository for: **Air Quality Monitoring and the Safety of Farmworkers in W
 Code developed for this project includes algorithms to download PM2.5 data from the AirNow Sebastopol Station, download PurpleAir Sonoma County PM2.5 , correct and aggregate PurpleAir 2-minute data into hourly averages, plot time series and diel cycles. 
 
 To cite this codebase, please use:
-  * Buchholz, R. R.: Code repository for: Examining the Effectiveness of Air Quality Monitoring for Agricultural Workers During Extreme Wildfires Events. Zenodo vx.x.x, https://doi.org/10.5281/zenodo.8253550, https://github.com/rrbuchholz/pm25_atmosphere_analysis_2023 (2023).
+  * Buchholz, R. R.: Code repository for: Examining the Effectiveness of Air Quality Monitoring for Agricultural Workers During Extreme Wildfires Events. Zenodo v1.0.0, https://doi.org/10.5281/zenodo.8253550, https://github.com/rrbuchholz/pm25_atmosphere_analysis_2023 (2023).
 
 Latest version: [![DOI](https://zenodo.org/badge/679422894.svg)](https://zenodo.org/badge/latestdoi/679422894)
 
